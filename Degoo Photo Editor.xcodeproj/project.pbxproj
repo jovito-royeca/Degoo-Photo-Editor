@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113525922025CCCF00F21F13 /* ios_license in Resources */ = {isa = PBXBuildFile; fileRef = 113525912025CCCF00F21F13 /* ios_license */; };
 		117222BA20248AED004718F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117222B920248AED004718F5 /* AppDelegate.swift */; };
 		117222BC20248AED004718F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117222BB20248AED004718F5 /* ViewController.swift */; };
 		117222BF20248AED004718F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117222BD20248AED004718F5 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113525912025CCCF00F21F13 /* ios_license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios_license; sourceTree = "<group>"; };
 		117222B620248AED004718F5 /* Degoo Photo Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Degoo Photo Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		117222B920248AED004718F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		117222BB20248AED004718F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		117222B820248AED004718F5 /* Degoo Photo Editor */ = {
 			isa = PBXGroup;
 			children = (
+				113525912025CCCF00F21F13 /* ios_license */,
 				117222B920248AED004718F5 /* AppDelegate.swift */,
 				117222BB20248AED004718F5 /* ViewController.swift */,
 				117222BD20248AED004718F5 /* Main.storyboard */,
@@ -281,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113525922025CCCF00F21F13 /* ios_license in Resources */,
 				117222C420248AED004718F5 /* LaunchScreen.storyboard in Resources */,
 				117222C120248AED004718F5 /* Assets.xcassets in Resources */,
 				117222BF20248AED004718F5 /* Main.storyboard in Resources */,
@@ -641,7 +645,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Degoo Photo Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Degoo-Photo-Editor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.degoo.Photo-Editor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -656,7 +660,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Degoo Photo Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Degoo-Photo-Editor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.degoo.Photo-Editor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
