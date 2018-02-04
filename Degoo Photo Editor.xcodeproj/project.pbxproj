@@ -315,8 +315,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Degoo Photo EditorUITests/Pods-Degoo Photo EditorUITests-frameworks.sh",
-				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework",
-				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework.dSYM",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -386,8 +386,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Degoo Photo EditorTests/Pods-Degoo Photo EditorTests-frameworks.sh",
-				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework",
-				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework.dSYM",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -421,8 +421,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Degoo Photo Editor/Pods-Degoo Photo Editor-frameworks.sh",
-				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework",
-				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework.dSYM",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework",
+				"${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

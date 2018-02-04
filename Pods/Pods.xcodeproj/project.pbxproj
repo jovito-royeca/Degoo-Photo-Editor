@@ -21,16 +21,17 @@
 /* Begin PBXFileReference section */
 		0AC15A7EE40108751CB98B8913DF2CB7 /* Pods-Degoo Photo EditorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Degoo Photo EditorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		11849E3DC82275A4D35DF14AEDF0F54A /* Pods-Degoo Photo EditorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Degoo Photo EditorTests-dummy.m"; sourceTree = "<group>"; };
-		1A7D17488D3F9051E4217321E90F19E3 /* PhotoEditorSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotoEditorSDK.framework; path = "pesdk-ios-build-8.2.3/PhotoEditorSDK.framework"; sourceTree = "<group>"; };
 		280FB9BC2111DF234F1EFEB4A8AFA073 /* Pods-Degoo Photo EditorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Degoo Photo EditorTests.modulemap"; sourceTree = "<group>"; };
 		31663831C90587A852D6F5AD992AFDCC /* Pods-Degoo Photo Editor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Degoo Photo Editor-acknowledgements.markdown"; sourceTree = "<group>"; };
 		32E732F9A4C954CE5A64BCB0AC9181AC /* Pods-Degoo Photo EditorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Degoo Photo EditorUITests-resources.sh"; sourceTree = "<group>"; };
+		367E9806A6AF538FD6AACBF3DD3D1C36 /* PhotoEditorSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotoEditorSDK.framework; path = "pesdk-ios-build-8.2.4/PhotoEditorSDK.framework"; sourceTree = "<group>"; };
 		3E02D46BF488B394ABC2BD41473F23C4 /* Pods-Degoo Photo EditorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Degoo Photo EditorUITests-umbrella.h"; sourceTree = "<group>"; };
-		3FAA132472F55262BEBD124B23A65F16 /* RenderMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RenderMode.h; path = "pesdk-ios-build-8.2.3/PhotoEditorSDK.framework/Headers/RenderMode.h"; sourceTree = "<group>"; };
+		416309799EF9F77899C18F4AD0F39315 /* PhotoEditorSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoEditorSDK.h; path = "pesdk-ios-build-8.2.4/PhotoEditorSDK.framework/Headers/PhotoEditorSDK.h"; sourceTree = "<group>"; };
 		493F369939D88F65131CC6FBDDDAF0BB /* Pods-Degoo Photo EditorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Degoo Photo EditorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D67B630C3028F38AB6D449B9EEEE760 /* Pods-Degoo Photo Editor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Degoo Photo Editor-acknowledgements.plist"; sourceTree = "<group>"; };
 		53335C449264770E380E7586E0077CE5 /* Pods_Degoo_Photo_EditorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Degoo_Photo_EditorTests.framework; path = "Pods-Degoo Photo EditorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533EE043D058A90FA1CD68E4DC031BBC /* Pods-Degoo Photo Editor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Degoo Photo Editor-umbrella.h"; sourceTree = "<group>"; };
+		5C6851D4AFF12F89FFFE2879DD0BD72E /* PhotoEditorSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PhotoEditorSDK-Swift.h"; path = "pesdk-ios-build-8.2.4/PhotoEditorSDK.framework/Headers/PhotoEditorSDK-Swift.h"; sourceTree = "<group>"; };
 		62FC305514614BA8AE3B5C9E16EA96F8 /* Pods-Degoo Photo EditorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Degoo Photo EditorTests-umbrella.h"; sourceTree = "<group>"; };
 		65F2A917379DE2F3BC62E93DB1FD846E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -39,8 +40,9 @@
 		6C6F7D7AF7079AA5BE762459B495AC9D /* Pods-Degoo Photo Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Degoo Photo Editor.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF64096AEF43FFB29C132FC7085E725 /* Pods-Degoo Photo Editor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Degoo Photo Editor-frameworks.sh"; sourceTree = "<group>"; };
 		6D867F5ED191B6D8F9499447F9EFC68A /* Pods-Degoo Photo EditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Degoo Photo EditorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7C1E131CE3107292304496A2ADAED507 /* AnalyticsConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnalyticsConstants.h; path = "pesdk-ios-build-8.2.3/PhotoEditorSDK.framework/Headers/AnalyticsConstants.h"; sourceTree = "<group>"; };
+		7A1B0450FF97F3D5DE8744CCA93418F7 /* RenderMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RenderMode.h; path = "pesdk-ios-build-8.2.4/PhotoEditorSDK.framework/Headers/RenderMode.h"; sourceTree = "<group>"; };
 		8EC6E299789BEB5AFD8F23E9057FC151 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6A4D6BA20C42E545F3FE14532C2B27 /* AnalyticsConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnalyticsConstants.h; path = "pesdk-ios-build-8.2.4/PhotoEditorSDK.framework/Headers/AnalyticsConstants.h"; sourceTree = "<group>"; };
 		910EFE9E8A5DC8258D7AD94CFC287AAA /* Pods-Degoo Photo Editor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Degoo Photo Editor.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970B45FE9315C2E7E0D7AFC0BBE83C4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,13 +51,11 @@
 		A859A6E1B1C74949A06BD3D155B408D5 /* Pods-Degoo Photo EditorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Degoo Photo EditorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC54D2210F7493E3EF8B4957601AE61D /* Pods-Degoo Photo EditorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Degoo Photo EditorTests-resources.sh"; sourceTree = "<group>"; };
 		B94A3B41EAD2E8C0FA46F789C9A83BB4 /* Pods-Degoo Photo EditorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Degoo Photo EditorUITests.modulemap"; sourceTree = "<group>"; };
-		BE0D91D248F7E9C3EC90104FE728FC7D /* PhotoEditorSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PhotoEditorSDK-Swift.h"; path = "pesdk-ios-build-8.2.3/PhotoEditorSDK.framework/Headers/PhotoEditorSDK-Swift.h"; sourceTree = "<group>"; };
 		C43958A479FD1ED3EA2835B148DC9B99 /* Pods-Degoo Photo Editor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Degoo Photo Editor-resources.sh"; sourceTree = "<group>"; };
 		C4F03CA145204BB47D0252A8D6033DAB /* Pods-Degoo Photo EditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Degoo Photo EditorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CC73C0A7A0EC771C431A9F320C21389B /* Pods-Degoo Photo Editor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Degoo Photo Editor-dummy.m"; sourceTree = "<group>"; };
 		E1B99878D9E6B4674989D5AE28802CCD /* Pods_Degoo_Photo_EditorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Degoo_Photo_EditorUITests.framework; path = "Pods-Degoo Photo EditorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE09444BA315E59597B2D0811DE450A4 /* Pods-Degoo Photo EditorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Degoo Photo EditorTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFE561949028135591236AFE7CAD0038 /* PhotoEditorSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhotoEditorSDK.h; path = "pesdk-ios-build-8.2.3/PhotoEditorSDK.framework/Headers/PhotoEditorSDK.h"; sourceTree = "<group>"; };
 		F2A0C63A617CFB228F34B975FF6E9B0B /* Pods-Degoo Photo EditorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Degoo Photo EditorUITests-frameworks.sh"; sourceTree = "<group>"; };
 		FB3FFEDA9A822C0C28E233068816C2FE /* Pods_Degoo_Photo_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Degoo_Photo_Editor.framework; path = "Pods-Degoo Photo Editor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7E20E89CC83AF27B347F079EC505BB /* Pods-Degoo Photo EditorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Degoo Photo EditorUITests-dummy.m"; sourceTree = "<group>"; };
@@ -89,6 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		075739BB866D19B834B4946D3F9CB05C /* PhotoEditorSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8F6A4D6BA20C42E545F3FE14532C2B27 /* AnalyticsConstants.h */,
+				416309799EF9F77899C18F4AD0F39315 /* PhotoEditorSDK.h */,
+				5C6851D4AFF12F89FFFE2879DD0BD72E /* PhotoEditorSDK-Swift.h */,
+				7A1B0450FF97F3D5DE8744CCA93418F7 /* RenderMode.h */,
+				FF943C604ACBFAF2DCFF5B6B82FA6C3F /* Frameworks */,
+			);
+			name = PhotoEditorSDK;
+			path = PhotoEditorSDK;
+			sourceTree = "<group>";
+		};
 		26B18F545A850F4DC703FE143BB32D3F /* Pods-Degoo Photo EditorTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,19 +148,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6CDFAD34AC1962700D8178FBBCD5C182 /* PhotoEditorSDK */ = {
-			isa = PBXGroup;
-			children = (
-				7C1E131CE3107292304496A2ADAED507 /* AnalyticsConstants.h */,
-				EFE561949028135591236AFE7CAD0038 /* PhotoEditorSDK.h */,
-				BE0D91D248F7E9C3EC90104FE728FC7D /* PhotoEditorSDK-Swift.h */,
-				3FAA132472F55262BEBD124B23A65F16 /* RenderMode.h */,
-				B14097D82A782F6AF458A9A59D13888C /* Frameworks */,
-			);
-			name = PhotoEditorSDK;
-			path = PhotoEditorSDK;
-			sourceTree = "<group>";
-		};
 		74AF002514705BFFDA431D978273756C /* Pods-Degoo Photo Editor */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,14 +187,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		B14097D82A782F6AF458A9A59D13888C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1A7D17488D3F9051E4217321E90F19E3 /* PhotoEditorSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,7 +198,7 @@
 		CCF0EA64B8F01F6C3D92FCB36945FF45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6CDFAD34AC1962700D8178FBBCD5C182 /* PhotoEditorSDK */,
+				075739BB866D19B834B4946D3F9CB05C /* PhotoEditorSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -217,6 +209,14 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF943C604ACBFAF2DCFF5B6B82FA6C3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367E9806A6AF538FD6AACBF3DD3D1C36 /* PhotoEditorSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -111,12 +111,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework"
-  install_dsym "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework.dSYM"
+  install_framework "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework"
+  install_dsym "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework.dSYM"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework"
-  install_dsym "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.3/PhotoEditorSDK.framework.dSYM"
+  install_framework "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework"
+  install_dsym "${PODS_ROOT}/PhotoEditorSDK/pesdk-ios-build-8.2.4/PhotoEditorSDK.framework.dSYM"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
