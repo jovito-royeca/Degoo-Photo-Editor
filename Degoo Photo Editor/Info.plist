@@ -23,11 +23,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow Degoo Photo Editor to take pictures and record video?</string>
+	<string>Degoo Photo Editor needs access to your camera so you can take a picture.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow Degoo Photo Editor to use your microphone?</string>
+	<string>Degoo Photo Editor needs access to your microphone so you can record a video.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Allow Degoo Photo Editor to access photos, media, and files on your device?</string>
+	<string>Degoo Photo Editor needs access to Photo Library so you can edit and save photos.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Degoo Photo Editor needs access to Location Services so you can load location information to photos and videos.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

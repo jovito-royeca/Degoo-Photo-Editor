@@ -23,6 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("PESDK success!")
         }
         
+        let configuration = Branding.buildConfiguration()
+        let viewController = DegooCameraViewController(configuration: configuration)
+//        let navViewController = UINavigationController(rootViewController: viewController)
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.rootViewController = viewController;
+        window!.makeKeyAndVisible()
+        
         return true
     }
 
