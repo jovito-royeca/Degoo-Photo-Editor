@@ -58,6 +58,7 @@ class ViewController: UIViewController {
         return photoEditViewController
     }
     
+    // MARK: Customiyation
     func buildConfiguration() -> Configuration {
         let configuration = Configuration() { builder in
             // Configure camera
