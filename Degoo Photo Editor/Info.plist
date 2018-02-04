@@ -26,6 +26,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow Degoo Photo Editor to access photos, media, and files on your device?</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow Degoo Photo Editor to take pictures and record video?</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow Degoo Photo Editor to use your microphone?</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
