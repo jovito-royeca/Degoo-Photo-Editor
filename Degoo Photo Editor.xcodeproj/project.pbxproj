@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		113525922025CCCF00F21F13 /* ios_license in Resources */ = {isa = PBXBuildFile; fileRef = 113525912025CCCF00F21F13 /* ios_license */; };
 		117222BA20248AED004718F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117222B920248AED004718F5 /* AppDelegate.swift */; };
-		117222BC20248AED004718F5 /* DegooCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117222BB20248AED004718F5 /* DegooCameraViewController.swift */; };
 		117222BF20248AED004718F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117222BD20248AED004718F5 /* Main.storyboard */; };
 		117222C120248AED004718F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117222C020248AED004718F5 /* Assets.xcassets */; };
 		117222C420248AED004718F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117222C220248AED004718F5 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,11 @@
 		11CB0AA72027848C005F375C /* Branding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CB0AA62027848C005F375C /* Branding.swift */; };
 		11CB0AA82027848C005F375C /* Branding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CB0AA62027848C005F375C /* Branding.swift */; };
 		11CB0AA92027848C005F375C /* Branding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CB0AA62027848C005F375C /* Branding.swift */; };
+		11FEE52D2027EC97009749A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEE52C2027EC97009749A2 /* MainViewController.swift */; };
+		11FEE52E2027EC97009749A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEE52C2027EC97009749A2 /* MainViewController.swift */; };
+		11FEE52F2027EC97009749A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FEE52C2027EC97009749A2 /* MainViewController.swift */; };
+		11FEE5362027EE68009749A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117222B920248AED004718F5 /* AppDelegate.swift */; };
+		11FEE5372027EE69009749A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117222B920248AED004718F5 /* AppDelegate.swift */; };
 		7A6005B331436C94AB3DB0F3 /* Pods_Degoo_Photo_Editor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14582E159E5CF73FDA5DE783 /* Pods_Degoo_Photo_Editor.framework */; };
 		9DBE7A804420C8B1D47B517D /* Pods_Degoo_Photo_EditorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE5281B5EFA67C498C7E6CF /* Pods_Degoo_Photo_EditorUITests.framework */; };
 		F2186541C8FA5AAE43D2262E /* Pods_Degoo_Photo_EditorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8C213FDC8BC07CC104020F /* Pods_Degoo_Photo_EditorTests.framework */; };
@@ -44,7 +48,6 @@
 		113525912025CCCF00F21F13 /* ios_license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ios_license; sourceTree = "<group>"; };
 		117222B620248AED004718F5 /* Degoo Photo Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Degoo Photo Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		117222B920248AED004718F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		117222BB20248AED004718F5 /* DegooCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegooCameraViewController.swift; sourceTree = "<group>"; };
 		117222BE20248AED004718F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		117222C020248AED004718F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117222C320248AED004718F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		117222D920248AED004718F5 /* Degoo_Photo_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degoo_Photo_EditorUITests.swift; sourceTree = "<group>"; };
 		117222DB20248AED004718F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11CB0AA62027848C005F375C /* Branding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branding.swift; sourceTree = "<group>"; };
+		11FEE52C2027EC97009749A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		14582E159E5CF73FDA5DE783 /* Pods_Degoo_Photo_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Degoo_Photo_Editor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D5604DE1FFADBF2F31D8B9 /* Pods-Degoo Photo EditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Degoo Photo EditorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Degoo Photo EditorTests/Pods-Degoo Photo EditorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A5F09150E5DB1C182BF8D02 /* Pods-Degoo Photo EditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Degoo Photo EditorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Degoo Photo EditorUITests/Pods-Degoo Photo EditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,14 +124,14 @@
 		117222B820248AED004718F5 /* Degoo Photo Editor */ = {
 			isa = PBXGroup;
 			children = (
-				113525912025CCCF00F21F13 /* ios_license */,
 				117222B920248AED004718F5 /* AppDelegate.swift */,
-				117222BB20248AED004718F5 /* DegooCameraViewController.swift */,
-				117222BD20248AED004718F5 /* Main.storyboard */,
 				117222C020248AED004718F5 /* Assets.xcassets */,
-				117222C220248AED004718F5 /* LaunchScreen.storyboard */,
-				117222C520248AED004718F5 /* Info.plist */,
 				11CB0AA62027848C005F375C /* Branding.swift */,
+				117222C520248AED004718F5 /* Info.plist */,
+				113525912025CCCF00F21F13 /* ios_license */,
+				117222C220248AED004718F5 /* LaunchScreen.storyboard */,
+				117222BD20248AED004718F5 /* Main.storyboard */,
+				11FEE52C2027EC97009749A2 /* MainViewController.swift */,
 			);
 			path = "Degoo Photo Editor";
 			sourceTree = "<group>";
@@ -479,9 +483,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117222BC20248AED004718F5 /* DegooCameraViewController.swift in Sources */,
 				11CB0AA72027848C005F375C /* Branding.swift in Sources */,
 				117222BA20248AED004718F5 /* AppDelegate.swift in Sources */,
+				11FEE52D2027EC97009749A2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +493,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FEE52E2027EC97009749A2 /* MainViewController.swift in Sources */,
 				11CB0AA82027848C005F375C /* Branding.swift in Sources */,
+				11FEE5362027EE68009749A2 /* AppDelegate.swift in Sources */,
 				117222CF20248AED004718F5 /* Degoo_Photo_EditorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,7 +504,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FEE52F2027EC97009749A2 /* MainViewController.swift in Sources */,
 				11CB0AA92027848C005F375C /* Branding.swift in Sources */,
+				11FEE5372027EE69009749A2 /* AppDelegate.swift in Sources */,
 				117222DA20248AED004718F5 /* Degoo_Photo_EditorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

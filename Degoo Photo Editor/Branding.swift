@@ -17,7 +17,7 @@ class Branding: NSObject {
     class func buildConfiguration() -> Configuration {
         let configuration = Configuration() { builder in
             // Configure the colors
-//            builder.backgroundColor = degooBlue
+            builder.backgroundColor = degooBlue
             builder.menuBackgroundColor = degooBlue
             
             // Configure camera
@@ -41,10 +41,6 @@ class Branding: NSObject {
             
             // Configure photo editor
             builder.configurePhotoEditorViewController() { options in
-                
-            }
-            
-            builder.transformToolControllerOptions() {options in
                 
             }
         }

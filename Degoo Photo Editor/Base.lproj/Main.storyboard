@@ -10,20 +10,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="NFp-za-TnA">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="eeC-kM-1Y0" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="eeC-kM-1Y0" customClass="MainViewController" customModule="Degoo_Photo_Editor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eic-nx-ShZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.074509803920000006" green="0.3803921569" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="k7m-wQ-jnh"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9fa-4Y-R3P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gWv-Ng-ApO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="405" y="-29"/>
+            <point key="canvasLocation" x="743.20000000000005" y="-29.23538230884558"/>
         </scene>
     </scenes>
 </document>
