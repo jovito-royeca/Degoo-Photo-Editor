@@ -25,9 +25,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Degoo Photo Editor needs access to your camera so you can take a picture.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Degoo Photo Editor needs access to Location Services so you can load location information to photos and videos.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Degoo Photo Editor needs access to your microphone so you can record a video.</string>
+	<string>Degoo Photo Editor needs access to Location Services so you can load location information to your photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Degoo Photo Editor needs access to Photo Library so you can edit and save photos.</string>
 	<key>UILaunchStoryboardName</key>

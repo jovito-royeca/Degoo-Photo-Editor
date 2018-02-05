@@ -18,19 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MP1-cH-kiN">
-                                <rect key="frame" x="67" y="269.5" width="241" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="241" id="3lP-0v-pVQ"/>
-                                    <constraint firstAttribute="height" constant="128" id="kew-Af-hhg"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MP1-cH-kiN">
+                                <rect key="frame" x="67" y="280" width="241" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.074509803921568626" green="0.38039215686274508" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="MP1-cH-kiN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="23H-W4-ZDy"/>
-                            <constraint firstItem="MP1-cH-kiN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aRt-QE-70k"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.098039215686274508" green="0.46274509803921571" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

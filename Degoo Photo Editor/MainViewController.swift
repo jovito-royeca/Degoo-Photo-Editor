@@ -11,6 +11,9 @@ import PhotoEditorSDK
 
 class MainViewController: UIViewController {
 
+    // MARK: Variables
+    var cameraViewController:CameraViewController?
+    
     // MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +22,11 @@ class MainViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        presentCameraViewController()
+        if cameraViewController == nil {
+            cameraViewController = createCameraViewController()
+        }
+        
+        present(cameraViewController!, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
@@ -28,31 +35,31 @@ class MainViewController: UIViewController {
     }
     
     // MARK: Custom methods
-    private func presentCameraViewController() {
+    func createCameraViewController() -> CameraViewController {
         let configuration = Branding.buildConfiguration()
-        let cameraViewController = CameraViewController(configuration: configuration)
+        let cvc = CameraViewController(configuration: configuration)
         
         // handle photo selection from Photo Library
-        cameraViewController.completionBlock = { (_ image: UIImage?, url: URL?) in
+        cvc.completionBlock = { (_ image: UIImage?, url: URL?) in
             if let image = image {
                 let photo = Photo(image: image)
                 let photoEditorViewController = self.createPhotoEditViewController(with: photo)
                 
-                cameraViewController.present(photoEditorViewController, animated: true, completion: nil)
+                cvc.present(photoEditorViewController, animated: true, completion: nil)
             }
         }
         
         // handle camera use
-        cameraViewController.dataCompletionBlock = { data in
+        cvc.dataCompletionBlock = { data in
             if let data = data {
                 let photo = Photo(data: data)
                 let photoEditorViewController = self.createPhotoEditViewController(with: photo)
                 
-                cameraViewController.present(photoEditorViewController, animated: true, completion: nil)
+                cvc.present(photoEditorViewController, animated: true, completion: nil)
             }
         }
         
-        present(cameraViewController, animated: true, completion: nil)
+        return cvc
     }
     
     func createPhotoEditViewController(with photo: Photo) -> PhotoEditViewController {
@@ -71,6 +78,7 @@ class MainViewController: UIViewController {
 // MARK: PhotoEditViewControllerDelegate
 extension MainViewController: PhotoEditViewControllerDelegate {
     func photoEditViewController(_ photoEditViewController: PhotoEditViewController, didSave image: UIImage, and data: Data) {
+        // save the image to Photo Library
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
         dismiss(animated: true, completion: nil)
     }

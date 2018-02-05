@@ -80,6 +80,8 @@ class ActionViewController: UIViewController {
 // MARK: PhotoEditViewControllerDelegate
 extension ActionViewController: PhotoEditViewControllerDelegate {
     func photoEditViewController(_ photoEditViewController: PhotoEditViewController, didSave image: UIImage, and data: Data) {
+        
+        // save the image to Photo Library
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
         
         if let extensionContext = extensionContext {
