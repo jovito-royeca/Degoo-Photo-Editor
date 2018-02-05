@@ -1,12 +1,19 @@
 PODS:
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
   - PhotoEditorSDK (8.2.4)
 
 DEPENDENCIES:
+  - Crashlytics
+  - Fabric
   - PhotoEditorSDK
 
 SPEC CHECKSUMS:
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
   PhotoEditorSDK: f1ddc5263700ef316d1724f9ea4f71c2282d2d0e
 
-PODFILE CHECKSUM: dfc7f61f407fd715a6c99617b556a26ea4db02da
+PODFILE CHECKSUM: 1d114b0576d590e366f57e2675746d0859c4a054
 
 COCOAPODS: 1.4.0.beta.2
