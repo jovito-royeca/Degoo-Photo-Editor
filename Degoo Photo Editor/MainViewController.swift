@@ -30,13 +30,15 @@ class MainViewController: UIViewController {
     // MARK: Custom methods
     private func presentCameraViewController() {
         let configuration = Branding.buildConfiguration()
-        let cameraViewController:CameraViewController = CameraViewController(configuration: configuration)
+        let cameraViewController = CameraViewController(configuration: configuration)
         
         // handle photo selection from Photo Library
         cameraViewController.completionBlock = { (_ image: UIImage?, url: URL?) in
             if let image = image {
                 let photo = Photo(image: image)
-                cameraViewController.present(self.createPhotoEditViewController(with: photo), animated: true, completion: nil)
+                let photoEditorViewController = self.createPhotoEditViewController(with: photo)
+                
+                cameraViewController.present(photoEditorViewController, animated: true, completion: nil)
             }
         }
         
@@ -44,7 +46,9 @@ class MainViewController: UIViewController {
         cameraViewController.dataCompletionBlock = { data in
             if let data = data {
                 let photo = Photo(data: data)
-                cameraViewController.present(self.createPhotoEditViewController(with: photo), animated: true, completion: nil)
+                let photoEditorViewController = self.createPhotoEditViewController(with: photo)
+                
+                cameraViewController.present(photoEditorViewController, animated: true, completion: nil)
             }
         }
         
@@ -57,7 +61,7 @@ class MainViewController: UIViewController {
         
         // Create a photo edit view controller
         let photoEditViewController = PhotoEditViewController(photoAsset: photo, configuration: configuration, menuItems: menuItems)
-        photoEditViewController.toolbar.backgroundColor = degooBlue
+        photoEditViewController.toolbar.backgroundColor = degooToolbarBlue
         photoEditViewController.delegate = self
         
         return photoEditViewController

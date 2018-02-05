@@ -9,7 +9,8 @@
 import UIKit
 import PhotoEditorSDK
 
-let degooBlue = UIColor(red:0.07, green:0.38, blue:0.65, alpha:1.0)
+let degooMenuBlue = UIColor(red:0.10, green:0.46, blue:0.72, alpha:1.0)
+let degooToolbarBlue = UIColor(red:0.07, green:0.36, blue:0.63, alpha:1.0)
 
 class Branding: NSObject {
     
@@ -17,14 +18,14 @@ class Branding: NSObject {
     class func buildConfiguration() -> Configuration {
         let configuration = Configuration() { builder in
             // Configure the colors
-            builder.backgroundColor = degooBlue
-            builder.menuBackgroundColor = degooBlue
+            builder.menuBackgroundColor = degooMenuBlue
             
             // Configure camera
             builder.configureCameraViewController() { options in
                 // Just enable Photos
                 options.allowedRecordingModes = [.photo]
-
+                options.backgroundColor = degooMenuBlue
+                
                 options.photoActionButtonConfigurationClosure = { button in
                     button.tintColor = UIColor.white
                 }
@@ -41,7 +42,7 @@ class Branding: NSObject {
             
             // Configure photo editor
             builder.configurePhotoEditorViewController() { options in
-                
+                options.backgroundColor = UIColor.black
             }
         }
         

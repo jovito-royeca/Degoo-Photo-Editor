@@ -14,3 +14,8 @@ target 'Degoo Photo EditorUITests' do
   use_frameworks!
   pod 'PhotoEditorSDK'
 end
+
+target 'EditAction' do
+    use_frameworks!
+    pod 'PhotoEditorSDK'
+end
