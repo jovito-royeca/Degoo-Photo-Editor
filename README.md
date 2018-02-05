@@ -1,6 +1,6 @@
-# Degoo-Photo-Editor
+# Degoo Photo Editor
 
-A [Degoo](https://degoo.com) branded [PhotoEditor](https://www.photoeditorsdk.com). Note that license will expire on 4 March, 2018.
+A [Degoo](https://degoo.com) branded [PhotoEditor SDK](https://www.photoeditorsdk.com). Note that license will expire on 4 March, 2018.
 
 ## Cloning
 
